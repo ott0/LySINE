@@ -1,14 +1,3 @@
-/*
-LySINE Data Layer: a public 2-dimensional mysql table
-Idea: anyone can add new fields and new records. no one can delete anything.
-Allowed Queries: use + show + describe + select + insert
-+ alter table lysine add [field_name field_type]
-Prohibited Terms: not null
-Host: ott0.com Port: 8888 User: root Pass: libre Database: future Table: lysine
-Status: currently implemented as a TCP wrapper for mysqld with Qt.
-if there are performance issues this will change.
-*/
-
 #include "clientthread.h"
 #include <QtNetwork>
 
